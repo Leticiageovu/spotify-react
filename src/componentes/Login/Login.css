@@ -1,0 +1,241 @@
+.login-container {
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    gap: 1rem;
+}
+
+.login-header {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-header img {
+    height: 6.5rem;
+}
+
+.login-main {
+    background: linear-gradient(rgba(255, 255, 255, 0.05) 0%, rgb(0, 0, 0) 100%);
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.login-box {
+    background-color: #121212;
+    padding: 6rem 9rem;
+    border-radius: 2.5rem;
+    width: 100%;
+    max-width: 950px;
+    height: fit-content;
+    text-align: center;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+}
+
+.login-box h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.2;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.input-group label {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 2rem;
+    background-color: #121212;
+    border: 2px solid #727272;
+    border-radius: 1.2rem;
+    color: #fff;
+    font-size: 2.2rem;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #1db954;
+    outline: none;
+    box-shadow: 0 0 0 6px rgba(29, 185, 84, 0.2);
+}
+
+.login-button {
+    width: 100%;
+    padding: 2.2rem;
+    background-color: #1db954;
+    border: none;
+    border-radius: 1000px;
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 3rem;
+    transition: all 0.2s;
+}
+
+.login-button:hover {
+    transform: scale(1.03);
+    background-color: #1ed760;
+}
+
+.error-message {
+    color: #f15e6c;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+hr {
+    margin: 4rem 0;
+    border: 0;
+    border-top: 3px solid #292929;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.signup-text {
+    color: #727272;
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.signup-link {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 2.4rem;
+    transition: color 0.2s;
+}
+
+.signup-link:hover {
+    color: #1db954;
+}
+
+/* Banner Premium no Login */
+.disclaimer-premium {
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.disclaimer-premium .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.disclaimer-premium__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.disclaimer-premium__subtitle {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.disclaimer-premium .button button {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.disclaimer-premium .button button:hover {
+    transform: scale(1.04);
+}
+
+/* Responsividade para Mobile */
+@media (max-width: 900px) {
+    .login-container {
+        gap: 0.5rem;
+    }
+
+    .login-box {
+        padding: 4rem 2rem;
+        background-color: transparent;
+        box-shadow: none;
+        max-width: 100%;
+    }
+
+    .login-box h1 {
+        font-size: 3.5rem;
+    }
+    
+    .login-main {
+        padding: 1.5rem;
+    }
+
+    .login-header img {
+        height: 4.5rem;
+    }
+    
+    .input-group input {
+        font-size: 2rem;
+        padding: 1.8rem;
+    }
+    
+    .input-group label {
+        font-size: 1.8rem;
+    }
+    
+    .login-button {
+        font-size: 2.2rem;
+        padding: 2rem;
+    }
+
+    .disclaimer-premium {
+        padding: 2rem 2rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .disclaimer-premium__title {
+        font-size: 1.4rem;
+    }
+
+    .disclaimer-premium__subtitle {
+        font-size: 1.1rem;
+    }
+}
+
