@@ -2,6 +2,24 @@
 
 Este projeto é uma réplica da interface do Spotify, desenvolvida originalmente durante a **Imersão Alura** e evoluída para uma aplicação **React** moderna e funcional. O foco principal é a construção de uma interface componentizada, responsiva e com gerenciamento de estado avançado, simulando a experiência real de uso da plataforma.
 
+
+## ANTES
+
+<img width="951" height="904" alt="PROJETO ANTERIOR" src="https://github.com/user-attachments/assets/b332f449-e611-46bd-ba63-bb1c16c7bd94" />
+
+
+
+
+## DEPOIS
+
+<img width="962" height="919" alt="lOGIN" src="https://github.com/user-attachments/assets/5edc04a4-994c-4e78-aa57-f6ccafd9a621" />
+
+
+
+
+<img width="956" height="908" alt="PROJETO ATUALIZADO" src="https://github.com/user-attachments/assets/b842fbb8-303f-4e5b-aed3-a922436619ef" />
+
+
 ## 🔐 Acesso ao Projeto (Login)
 
 Para navegar e utilizar todas as funcionalidades da aplicação, implementamos um sistema de login simples e intuitivo:
@@ -84,4 +102,11 @@ src/
 
 ---
 
-*Desenvolvido e aprimorado como parte da jornada de aprendizado em React e Desenvolvimento Web.*
+## 👩‍💻 Autora
+
+Desenvolvido e aprimorado por **Letícia Geovú**  
+Projeto criado como parte da evolução prática em React, UI/UX e desenvolvimento front-end.
+
+🔗 LinkedIn: [seu-link ](https://www.linkedin.com/in/leticia-geov%C3%BA-1a8386197/) 
+
+🔗 GitHub: [seu-link](https://github.com/Leticiageovu)
